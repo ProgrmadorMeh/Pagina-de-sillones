@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+#form-regis{
+    background-color: rgb(32, 32, 32);
+    box-shadow: 0px 0px 50px 10px yellow, inset 0px 0px 10px gold;
+    width: 350px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 15px;
+    text-align: center;
+
+    color: red;
+}
+#form-regis *{
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h4{
+    font-size: 2em;
+}
+#form-regis input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 15px;
+}
